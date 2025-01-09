@@ -2,7 +2,7 @@ import { FC, MouseEventHandler } from "react";
 import ButtonSvg from "../../assets/svg/ButtonSvg";
 
 interface ButtonProps {
-	className: string;
+	className?: string;
 	children: React.ReactNode;
 	href?: string;
 	onClick?: MouseEventHandler<HTMLButtonElement>;

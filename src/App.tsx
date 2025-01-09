@@ -1,8 +1,7 @@
 import { FC } from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Button from "./components/ui/Button";
 import Header from "./components/Header";
-import Section from "./components/ui/Section";
+import Hero from "./components/Hero";
 
 const App: FC = () => {
 	return (
@@ -12,6 +11,7 @@ const App: FC = () => {
 			overflow-hidden"
 			>
 				<Header />
+				<Hero />
 			</div>
 			<ButtonGradient />
 		</>

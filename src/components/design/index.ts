@@ -8,7 +8,7 @@ export {
 } from "./Header";
 export {
 	BackgroundCircles as HeroBackgroundCircles,
-	BottomLine,
+	BottomLine as HeroBottomLine,
 	Gradient as HeroGradient,
 } from "./Hero";
 export { LeftLine, RightLine } from "./Line";

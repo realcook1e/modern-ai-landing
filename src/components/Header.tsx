@@ -6,7 +6,7 @@ import {
 } from "scroll-lock";
 import { brainwave } from "../assets";
 import { navigation } from "../consts";
-import Button from "./ui/Button";
+import { Button } from "./ui";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design";
 
